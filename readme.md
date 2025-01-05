@@ -34,7 +34,7 @@ This repository contains the frontend prototype developed for the EY Hackathon. 
    ```
 4. **Start the Development Server Run the application locally**
    ```bash
-    npm start
+    npm run dev
    ```
     This will start the application, and it will be accessible at:
    ```bash
@@ -61,6 +61,13 @@ For production or deployment, you can build the application using:
     │   ├── App.js      # Main application file
     │   ├── index.js    # Entry point
     │
+    ├── .gitignore
+    ├── eslint.config.js
+    ├── index.html
+    ├── package-lock.json
     ├── package.json    # Project metadata and dependencies
+    ├── postcss.config.js    # Project metadata and dependencies
     ├── README.md       # Project documentation
+    ├── tailwind.config.js       
+    ├── vite.config.js
 
